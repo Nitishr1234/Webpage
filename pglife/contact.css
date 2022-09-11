@@ -1,0 +1,70 @@
+.main-container{
+    height: 700px;
+    width: 100%;
+    background-color: #0072B5;
+}
+.container{
+    height: 240px;
+    width: 80%;
+    display: flex;
+  
+}
+.box{
+    height: 190px;
+    width: 20%;
+   margin-left: 50px;
+   position: relative;
+   bottom: 50px;
+   background-color: white;
+   z-index: 2;
+}
+img{
+    height: 60px;
+    position: relative;
+    top:15px;
+    left: 70px;
+}
+h5{
+    position: relative;
+    top:20px;
+   text-align: center;
+    font-weight: bold;
+
+}
+h6{
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+.box-container{
+    height: 450px;
+    width: 980px;
+    position: relative;
+    left: 28%;
+    bottom: 60px;
+    background-color: turquoise;
+    z-index: 1;
+  
+}
+h3{
+    margin: 40px;
+    font-size: 45px;
+    color: #34568B;
+}
+input{
+    height: 30px;
+    width: 450px;
+  margin-top: 30px;
+  margin-left: 150px;
+  font-weight: 600;
+  color: black;
+}
+.message{
+    height: 130px;
+    font-weight: 600;
+  color: black;
+}
+.bty .btn{
+    position: relative;
+    right: 1000px;
+}
